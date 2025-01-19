@@ -1,6 +1,9 @@
 # samsung-riscv
 # VSD-VSLI-Internship   
-# Task 1   
+
+<details>
+<summary><b>Task 1:</b></summary>
+<br>
 1. A program, which counts from 1 to 'n' numbers, was coded in C language and was run using gcc compiler.
 
 The code is as follows:
@@ -19,7 +22,7 @@ int main() {
   The output was run using ./a.out
 
   ![1](https://github.com/user-attachments/assets/b9d66816-3355-4c27-9482-b0289abb2130)
-
+</br>
 
 2. Compiling using RISC-V gcc compiler and seeing the assembly code with O1.
     ![3](https://github.com/user-attachments/assets/be00753b-81fb-45fa-8980-6e46c1e5f026)
