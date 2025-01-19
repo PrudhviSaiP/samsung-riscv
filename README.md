@@ -2,7 +2,7 @@
 # VSD-VSLI-Internship   
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 <details>
-<summary><b>Task 1:</b></summary>
+<summary><b>Task 1: </b> Installing all essential tools and compiling a 'C' code using gcc compiler.</summary>
 <br>
 1. A program, which counts from 1 to 'n' numbers, was coded in C language and was run using gcc compiler.
 
@@ -39,7 +39,7 @@ int main() {
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 <details>
-<summary><b>Task 2:</b></summary> 
+<summary><b>Task 2: </b>SPIKE Simulation.</summary> 
 
 The instruction set (Object Dump) is given below.
 
