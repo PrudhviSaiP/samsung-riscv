@@ -40,7 +40,7 @@ int main() {
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 <details>
 <summary><b>Task 2: </b>SPIKE Simulation.</summary> 
-
+<br>
 The instruction set (Object Dump) is given below.
 
 ![Task2 instruction set](https://github.com/user-attachments/assets/7a475392-69c3-498b-b270-47286a60c10c)
