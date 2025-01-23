@@ -127,6 +127,39 @@ The multiple fields in a S-Type instruction are:
 * 'funct3' field: It is the field after the destination register . This field is 3 – bit length     i.e. from bit 12 to bit 14 and it further tells about the operation, such as whether it is an     addition, subtraction, or a logical operation that is being performed.
 * Source register operands (rs1, rs2): The registers where the input is stored.
 
+---------------------------------------------------------------------
+## 4. B-Type Instruction:
 
+![B type](https://github.com/user-attachments/assets/02a0ca26-53f3-4747-9112-baf0a155da6d)
+
+A B-type instruction in RISC-V is a branch instruction that controls the flow of a program. It compares two values in registers and branches to a new address. B-type instructions are a variation of S-type instructions.  B-type instructions are used for conditional branches, which test two registers and branch if the test passes. The target address for a B-type instruction is calculated by adding a branch offset to the current program counter (PC) value. The branch offset is stored as an immediate in the instruction. The fields in the B-Type instruction are:
+* The opcode field : Tells the processor what operation to perform.
+* The immediate field: The immediate field in a B-type instruction in RISC-V is a 12-bit field that stores a branch offset. The branch offset is used to calculate the target address for an instruction.
+* 'funct3' field: It is the field after the immediate field. This field is 3 – bit length i.e. from bit 12 to bit 14 and it further tells about the operation, such as whether it is an addition, subtraction, or a logical operation that is being performed.
+* Source register operands (rs1, rs2): The registers where the input is stored.
+
+--------------------------------------------------------------------------
+## 5. U-Type Instruction:
+
+![u type](https://github.com/user-attachments/assets/3825ff30-62a1-4c58-92d3-1bcfe92e7375)
+
+A U-type instruction in RISC-V is a type of instruction that specifies the upper 20 bits of a register's immediate value. It's also known as an "Upper immediate" instruction. The U-type instruction loads a 20-bit immediate value into the upper 20 bits of a register. The instruction only requires the destination register index (rd) and the 20-bit immediate number. The immediate number can be used directly as an operand. U-type instructions are used for special data manipulation instructions. They can be used to form addresses within a register. The fields in the U-Type instruction are:
+* The opcode field (0 to 6): Tells the processor what operation to perform.
+* The destination register operand (rd) (7 to 11): The register index which stores the result of the operation.
+* The immediate field (12 to 31) : The immediate field in a U-type instruction in RISC-V is a 20-bit value that specifies the upper 20 bits of a register.
+
+------------------------------------------------------------------------
+## 6. J-Type Instruction:
+
+![J- Type](https://github.com/user-attachments/assets/0b5b80b9-2c25-48db-93ff-3365f1b44d4e)
+
+A J-type instruction in RISC-V is a jump instruction that unconditionally transfers control to a new instruction address. They use all of the non-opcode space for a 26-bit jump destination field. J-type instructions are part of the PC updating instructions, along with B-type instructions.
+* The opcode field (0 to 6): Tells the processor what operation to perform.
+* The destination register operand (rd) (7 to 11): The register index which stores the result of the operation.
+* The immediate fields (12 to 31) : The immediate field in J type is is a 20-bit value that specifies the upper 20 bits of a register, similar to U type but it is slightly different.
+
+--------------------------------------------------------------------------------
+
+# Identifying Instruction types in Object Dump of application code.
  
 </details>
