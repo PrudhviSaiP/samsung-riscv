@@ -1,6 +1,6 @@
 # Samsung-VSD
 ## VSLI-Internship   
-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
 <details>
 <summary><b>Task 1: </b> Installing all essential tools and compiling a 'C' code using gcc compiler.</summary>
 <br>
