@@ -161,5 +161,108 @@ A J-type instruction in RISC-V is a jump instruction that unconditionally transf
 --------------------------------------------------------------------------------
 
 # Identifying Instruction types in Object Dump of application code.
- 
+
+> 15 unique instructions with 32-bit pattern are given below.
+
+
+1. `lui a0,0x2b`
+   * LUI (load upper immediate) is a U-type instruction.
+   * LUI places the U-immediate value in the top 20 bits of the destination register rd, filling in the lowest 12 bits with zeros.
+   * This instruction will be executed and the immediate value 0x2b will be written in the MSB of the rd a0.
+
+   * The 32-bit pattern is: ```0000 0000 0000 0010 1011 0101 0011 0111```.
+
+2. `addi sp,sp,-80`
+   * addi (Add immediate) is a I-type instruction.
+   * It is done on the stack pointer registor (sp).
+
+   * The 32-bit pattern is: ```1111 1011 0000 0001 0000 0001 0001 0011```.
+
+3. `SUB r7, r1, r2`
+   * All the arithmetic and logical operations are performed using R-type instruction format, hence this instruction belongs to R-type instruction set.
+   * r7 is the destination register that will hold the difference of values stored in the register r1 and r2.
+
+   * The 32-bit pattern is: ```0100 0000 0010 0000 1000 0011 1011 0011```.
+
+4. `lw a5,12(sp)`
+   * LW stands for Load Word. Word is equal to 32 bits or 4 bytes. Since there is an immediate value given in the instruction which helps to calculate the address of memory from where we have to fetch the data, hence this instruction belongs to I-type.
+   * a5 is the destination register that will hold the value fetched from the memory location.
+
+   * The 32-bit pattern is: ```0000 0000 1100 0001 0010 0111 1000 0011```.
+
+5. `SLT r11, r2, r4`
+   * Since the logical operation is performed on registers, hence this instruction belongs to R-type instruction set.
+   * r1 is the destination register that sets to 1, if r2 is less than r4, else 0 if r2 is greater than r4.
+
+   * The 32-bit pattern is: ```0000 0000 0100 0001 0010 0101 1011 0011```.
+
+6. `jal ra, 10408`
+   * It is a J-Type instruction.
+   * The jal instruction jumps to the target address 10408 and stores the return address in register ra.
+
+   * The 32-bit pattern is: ```0011 0100 0000 0000 0000 0000 1110 1111```.
+
+7. `ret `
+   * This is a J-Type instruction as it contains an immediate , destination register and an opcode.
+   * ret is also an pseudo instruction , which is a short for jalr x0 , ra , 0 . This means that when the ret instruction is executed, it effectively jumps to the address stored in the return address register (ra, which is register x1) and sets the program counter (PC) to that address.
+
+   * The 32-bit pattern is: ```0000 0000 0000 0000 1000 0000 0110 0111 ```.
+
+8. `mv  a1,a0`
+   * This is an I - Type instruction.
+   * The mv (move) instruction is a pseudo-instruction in RISC-V used to copy the value of one register to another.
+   * mv is addi with an immediate value of 0.
+
+   * The 32-bit pattern is: ```0000 0000 0000  0101 0000 0101 1001 0011  ```.
+  
+9. `auipc a5,0xffff0`
+   * This is an U-Type instruction.
+   * RISC-V includes an instruction to help with position-independent code: auipc (add upper immediate to PC). auipc works just like lui (load upper immediate) but adds a 20-bit immediate value to the program counter.
+
+   * The 32-bit pattern is: ```1111 1111 1111 1111 0000 0111 1001 0111```.
+
+10. `ld ra,8(sp)`
+   
+    * This is I-Type instruction.
+    * ld is used to load a 64-bit value from memory into a specific register.
+    * 'ra' is the register where the value at address sp is at with offset of 8.
+    
+    * The 32-bit pattern is: ```0000 0000 1000 0001 0011 0000 1000 0011```.
+
+11. `addiw a5,a5,-1`
+    * This is an I-type instruction.
+    * 'addiw' indicates add immediate word,which adds a sign-extended 12-bit immediate to a 32-bit register.
+    * a5 is both the source and destination register.
+    
+    * The 32-bit pattern is: ```1111 1111 1111 0111 1000 0111 1001 1011```.
+  
+12. `li a5,60`
+    * This is an I-Type instruction.
+    * li is a pseudo-instruction used to load a constant value directly into a register.
+    * a5 is a destination register where the immediate value is loaded.
+    
+    * The 32-bit pattern is: ```0000 0011 1100 0000 0000 0111 1001 0011```.
+
+13. `beq a0, a1, target`
+    * This is an B-Type instruction.
+    * The conditional branch instructions in RISC-V are beq (branch if equal), bne (branch if not equal), blt (branch if less than), and bge (branch if greater than or equal to).
+    * These instructions are used to control the flow of execution in a program based on certain conditions.
+    
+    * The 32-bit pattern is: ```0111 1011 1111 1111 0000 0111 1001 0111```.
+
+14. `slli a0, a0, 1`
+    * This is an R-Type instruction.
+    * SLLI is a logical left shift (zeros are shifted into the lower bits); SRLI is a logical right shift (zeros are shifted into the upper bits); and SRAI is an arithmetic right shift (the original sign bit is copied into the vacated upper bits).
+    
+    * The 32-bit pattern is: ```0000 0111 1101 1101 0010 0111 1001 0101```.
+  
+15. `SW r3, r1, 2`
+    * This is an S-type instruction.
+    * In this instruction SW means store word.
+    * r3 is the source register. This instruction will store the value located in register r3 at the address obtained by adding the immediate address 2 with the address located in register r1.
+    
+    * The 32-bit pattern is: ```0000 0000 0011 0000 1010 0001 0010 0011```.
+
+--------------------------------------------------------------------------------------------
+
 </details>
