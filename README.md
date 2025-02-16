@@ -267,6 +267,7 @@ A J-type instruction in RISC-V is a jump instruction that unconditionally transf
 
 </details>
 
+-----------------------------------------------------------------------------------------------------------
 
 <details>
 <summary><b>Task 4: </b>Functional Simulation using GTKWave.</summary> 
