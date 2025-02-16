@@ -1,22 +1,23 @@
 # Samsung-VSD
 ## VSLI-Internship   
 
-# INTRODUCTION
-#### As part of my internship at Samsung-VSD, I have had the opportunity to explore and work with the CH32V003F4U6, a 32-bit RISC-V microcontroller. VSD Squadron mini is known for its contributions to open-source EDA tools, RISC-V development, and embedded systems. 
-![Screenshot 2025-02-15 191652](https://github.com/user-attachments/assets/0e0cc8da-b74b-4812-8e98-028b9d95c2fa)
-***
-#### Personal Details  
-##### Name: Purigella Prudhvi Sai Bharadwaj
-##### University: Sri Sathya Sai Institute of Higher Learning   
-##### Email ID: prudhvisai2004@gmail.com
-##### GitHub Profile: PrudhviSaiP
+### INTRODUCTION
+The VSDSquadron Mini Internship is a dynamic, short-term program designed to offer hands-on experience in VLSI design, semiconductor technology, and related fields. It serves as a bridge between academic learning and industry-ready skills.
+During my internship at Samsung-VSD, I had the opportunity to explore and work with the CH32V003F4U6, a 32-bit RISC-V microcontroller. The VSD Squadron Mini is widely recognized for its contributions to open-source EDA tools, RISC-V development, and embedded systems.
+I worked with the VSDSquadron Mini RISC-V Development Kit, a robust platform built on the RISC-V architecture. This project provided an opportunity to delve into embedded systems and explore how RISC-V integrates into various development workflows. I gained practical, hands-on experience with its core features while applying cutting-edge techniques in embedded system design.
+
+<p align="center">
+  <img width="400" height="250" src="![image](https://github.com/user-attachments/assets/089f5f3c-40f1-429a-8469-6c90aa57ea33)">
+</p>
 
 ***
+### Basic Details  
+**Name:** Purigella Prudhvi Sai Bharadwaj    
+**University:** Sri Sathya Sai Institute of Higher Learning      
+**Email ID:** prudhvisai2004@gmail.com     
+**GitHub Profile:** PrudhviSaiP   
+**LinkedIN Profile:** P.Prudhvi Sai Bharadwaj
 
-
-
-
-#### Through hands-on projects, I have learned how to interface sensors, control peripherals, and optimize code for real-world applications. This repository showcases one of my projects, where I implement an ultrasonic proximity detector with LED alerts, using the VSD Squadron Mini board. The experience has deepened my understanding of RISC-V architecture, firmware development, and hardware interfacing.
 
 ***
 <details>
