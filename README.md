@@ -20,7 +20,7 @@ I worked with the VSDSquadron Mini RISC-V Development Kit, a robust platform bui
 **University:** Sri Sathya Sai Institute of Higher Learning      
 **Email ID:** prudhvisai2004@gmail.com     
 **GitHub Profile:** PrudhviSaiP   
-**LinkedIN Profile:** P.Prudhvi Sai Bharadwaj
+**LinkedIn Profile:** P.Prudhvi Sai Bharadwaj
 
 
 ***
