@@ -7,8 +7,11 @@ During my internship at Samsung-VSD, I had the opportunity to explore and work w
 I worked with the VSDSquadron Mini RISC-V Development Kit, a robust platform built on the RISC-V architecture. This project provided an opportunity to delve into embedded systems and explore how RISC-V integrates into various development workflows. I gained practical, hands-on experience with its core features while applying cutting-edge techniques in embedded system design.
 
 <p align="center">
-  <img width="400" height="250" src="![image](https://github.com/user-attachments/assets/089f5f3c-40f1-429a-8469-6c90aa57ea33)">
+  <img width="400" height="250" src="
+![vsdsquadron_board_diagram-1-1024x668](https://github.com/user-attachments/assets/73760188-04b7-4caf-9aae-8747a16ed9c5)
+">
 </p>
+
 
 ***
 ### Basic Details  
