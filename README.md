@@ -6,11 +6,12 @@ The VSDSquadron Mini Internship is a dynamic, short-term program designed to off
 During my internship at Samsung-VSD, I had the opportunity to explore and work with the CH32V003F4U6, a 32-bit RISC-V microcontroller. The VSD Squadron Mini is widely recognized for its contributions to open-source EDA tools, RISC-V development, and embedded systems.
 I worked with the VSDSquadron Mini RISC-V Development Kit, a robust platform built on the RISC-V architecture. This project provided an opportunity to delve into embedded systems and explore how RISC-V integrates into various development workflows. I gained practical, hands-on experience with its core features while applying cutting-edge techniques in embedded system design.
 
+
 <p align="center">
-  <img width="400" height="250" src="
-![vsdsquadron_board_diagram-1-1024x668](https://github.com/user-attachments/assets/73760188-04b7-4caf-9aae-8747a16ed9c5)
-">
+  <img src="https://github.com/user-attachments/assets/d5250c68-c757-4960-9ed7-1de4c6cb7eb7" 
+       alt="VSDSquadron Board Diagram" width="600">
 </p>
+
 
 
 ***
