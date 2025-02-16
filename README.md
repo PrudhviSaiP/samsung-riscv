@@ -849,3 +849,8 @@ https://drive.google.com/file/d/1cABiJjAcnGgZaSo86KzOUS1DdcsJkmaQ/view?usp=drive
 </details>
 
 -----------------------------------------------------------------------------------
+
+
+#AKNOWLEDGEMENT
+
+I am deeply grateful to Kunal Sir for his invaluable guidance and support throughout this journey. His mentorship has been instrumental in enhancing my understanding of the VSDSquadron Mini board (CH32V003F4U6) and the RISC-V architecture.
