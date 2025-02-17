@@ -844,7 +844,7 @@ void setPWMDuty(int pulseWidth) {
 <summary><b>Task 6: </b>Smart Light Sensor, Working Video.</summary> 
 <br>
 
-https://drive.google.com/file/d/1cABiJjAcnGgZaSo86KzOUS1DdcsJkmaQ/view?usp=drive_link
+[https://drive.google.com/file/d/1cABiJjAcnGgZaSo86KzOUS1DdcsJkmaQ/view?usp=drive_link](https://drive.google.com/file/d/1cABiJjAcnGgZaSo86KzOUS1DdcsJkmaQ/view?usp=sharing)
 
 </details>
 
